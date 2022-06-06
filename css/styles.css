@@ -7,6 +7,48 @@
   --color-text-secondary: #000000; 
 }
 
+
+.team {
+  width: 100%;
+  background-color: var(--color-text-header);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+.title-team {
+
+  color: var(--color-second);
+  line-height: 1.88;
+  font-weight: 600;
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif; /*Rubik*/
+}
+.text-team {
+  width: 90%;
+  margin: 15px 0 0;
+  font-family: Arial, Helvetica, sans-serif; /*OpenSans*/
+  color: var(--color-text-primary);
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 15%;
+}
+.rectangle-final-team {
+  width: 30px;
+  height: 30px;
+  background-color: var(--color-text-header);
+  display: flex;
+  justify-content: center;
+  transform: rotate(45deg);
+  position: absolute;
+  bottom: -2.8%;
+  
+}
+
 .fortydeb{
   width:100%;
   background-color: var(--color-detail);
