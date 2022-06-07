@@ -144,18 +144,6 @@
   line-height: 1.5;
 }
 
-.rectangle {
-  background-color: var(--color-text-header);
-  width: 9.34%;
-  height: 9.34%;
-  transform: rotate(45deg);
-  position: relative;
-  top: 0;
-  /*no se ve*/
-}
-
-
-
 .hero {
   background-image: url(../images/prueba.jpg);
   background-repeat: no-repeat;
