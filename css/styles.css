@@ -5,7 +5,10 @@
   --color-text-primary: #54585a;
   --color-detail: #b8b8b9;
   --color-text-secondary: #000000;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 9aacb47054c1a653b06f3921907907b268491e57
 }
 
 .header {
@@ -31,7 +34,6 @@
 }
 
 .nav {
-
   height: 45px;
   background-color: var(--color-second);
   display: flex;
@@ -63,7 +65,6 @@
 }
 
 .title-team {
-
   color: var(--color-second);
   line-height: 1.88;
   font-weight: 600;
@@ -94,7 +95,6 @@
   transform: rotate(45deg);
   position: absolute;
   bottom: -2.8%;
-
 }
 
 .fortydeb {
@@ -128,8 +128,7 @@
 .title-fort {
   color: var(--color-principal);
   margin-top: 9.34%;
-  font-family: Arial, Helvetica, sans-serif;
-  /*se llama Rubik*/
+  font-family: 'Rubik', sans-serif;
   font-size: 1.375rem;
   line-height: 2.05;
 }
@@ -137,28 +136,16 @@
 .par-deb,
 .par-fort {
   color: var(--color-text-primary);
-  font-family: Arial, Helvetica, sans-serif;
-  /*se llama OpenSans*/
+  font-family: 'Open Sans', sans-serif;
   font-size: 1rem;
   line-height: 1.5;
 }
 
-.rectangle {
-  background-color: var(--color-text-header);
-  width: 9.34%;
-  height: 9.34%;
-  transform: rotate(45deg);
-  position: relative;
-  top: 0;
-  /*no se ve*/
-}
-
-
-
 .hero {
-  background-image: url(../images/prueba.jpg);
+  background-image: url(https://www.latercera.com/resizer/Cl0W6jWbj8PfL8U15xJWGyaTr7Q=/900x600/smart/arc-anglerfish-arc2-prod-copesa.s3.amazonaws.com/public/CXNSQYHH7FFKNJLH6SGZTZ3ABE.jpg);
   background-repeat: no-repeat;
   background-color: white;
+  background-position: center;
   width: 100%;
   height: 280px;
   display: flex;
@@ -276,7 +263,6 @@ height: 250px;
 .footer .logo {
   width: 115.9px;
   height: 45px;
-
 }
 
 .link-footer {
