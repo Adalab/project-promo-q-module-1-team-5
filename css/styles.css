@@ -6,7 +6,6 @@
   --color-detail: #b8b8b9;
   --color-text-secondary: #000000;
 
-
 }
 
 .header {
@@ -189,6 +188,68 @@
   display: flex;
   text-align: center;
 }
+
+.personal {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+  position: relative;
+}
+
+.Names {
+  font-family: Arial, Helvetica, sans-serif;
+  /*OpenSans*/
+  color: var(--color-text-secondary);
+  font-weight: 100;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 2%;
+}
+
+.text-who {
+  font-family: Arial, Helvetica, sans-serif;
+  /*OpenSans*/
+  color: var(--color-text-primary);
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 5%;
+}
+
+.who-we-are {
+margin-top: 5%;
+color: var(--color-principal);
+line-height: 1.88;
+text-align: center;
+font-weight: 600;
+font-size: 24px;
+font-family: Arial, Helvetica, sans-serif; /*Rubik*/
+}
+
+.frame {
+margin: 5%;
+width: 250px;
+height: 250px;
+  border: 6px solid #d5d5d5;
+  border-radius: 7px;
+ }
+ .icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 6%;
+  }
+
+.fab fa-twitter {
+  width: 30px;
+  height: 80px;
+  color: var(--color-principal);
+}
+
 
 .footer {
   width: 100%;
