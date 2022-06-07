@@ -13,6 +13,7 @@
   width: 100%;
   background-color: var(--color-principal);
   position: fixed;
+  top: 0;
   opacity: 0.9;
 }
 
