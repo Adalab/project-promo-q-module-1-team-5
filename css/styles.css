@@ -21,13 +21,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 .title-header {
   color: var(--color-text-header);
   line-height: 30px;
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
   font-weight: 500;
   font-size: 16px;
 }
@@ -48,7 +47,7 @@
 
 .link {
   color: var(--color-text-header);
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
   font-weight: 500;
   line-height: 30px;
   font-size: 15px;
@@ -170,7 +169,7 @@
 .title-fort {
   color: var(--color-principal);
   margin-top: 9.34%;
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 1.375rem;
   line-height: 2.05;
 }
@@ -178,7 +177,7 @@
 .par-deb,
 .par-fort {
   color: var(--color-text-primary);
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 1rem;
   line-height: 1.5;
 }
@@ -260,7 +259,7 @@
 
 .copyright {
   color: var(--color-detail);
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
@@ -282,7 +281,7 @@
 .link-footer {
   color: var(--color-text-primary);
   text-decoration: none;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 600;
   font-size: 14px;
   line-height: 20px;
