@@ -21,6 +21,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  scroll-margin-top: 95px;
 }
 
 .title-header {
@@ -101,6 +102,7 @@
   align-items: center;
   text-align: center;
   position: relative;
+  scroll-margin-top: 120px;
 }
 
 .title-team {
@@ -183,6 +185,9 @@
 }
 
 /* ================ */
+.who {
+  scroll-margin-top: 120px;
+}
 
 .personal {
   display: flex;
