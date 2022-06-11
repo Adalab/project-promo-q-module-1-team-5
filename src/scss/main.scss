@@ -85,7 +85,7 @@
   height: 80px;
   background-color: white;
   color: var(--color-text-secondary);
-  font-family: OpenSans;
+  font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   font-weight: 600;
   line-height: 1.3;
@@ -96,6 +96,7 @@
   justify-content: center;
   position: relative;
   top: 250px;
+  
 }
 
 .text-hero {
@@ -300,4 +301,13 @@
   font-weight: 600;
   font-size: 14px;
   line-height: 20px;
+}
+/*RESPONSIVE ABAJO*/
+
+@media all and (min-width: ){ /*tablet*/
+  
+}
+
+@media all and (min-width: ){ /*desktop*/
+  
 }
