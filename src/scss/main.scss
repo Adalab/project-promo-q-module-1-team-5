@@ -17,15 +17,19 @@
   --color-text-primary: #54585a;
   --color-detail: #b8b8b9;
   --color-text-secondary: #000000;
+  --color-detail-light: #b8b8b980;
 }
 
+.container{
+  padding: 0 15px;
+}
 .header {
   width: 100vw;
   background-color: var(--color-principal);
   position: fixed;
   top: 0;
   opacity: 0.9;
-  z-index: 999;
+  z-index: 999; 
 }
 
 .team-name {
@@ -53,10 +57,6 @@
   align-items: center;
 }
 
-.header .button {
-  border: none;
-  background-color: var(--color-second);
-}
 
 .link {
   color: var(--color-text-header);
@@ -65,6 +65,7 @@
   line-height: 30px;
   font-size: 15px;
   text-decoration: none;
+  padding: 15px;
 }
 
 /* =============== */
@@ -74,13 +75,15 @@
   background-color: white;
   background-position: center;
   width: 100%;
-  height: 280px;
+  height: 421px;
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
+  background-size: cover;
+  
 }
 
-.hero h3 {
+.hero .text-hero {
   width: 80%;
   height: 80px;
   background-color: white;
@@ -95,14 +98,11 @@
   align-items: center;
   justify-content: center;
   position: relative;
-  top: 250px;
+  bottom: -381px;
   
 }
 
-.text-hero {
-  display: flex;
-  text-align: center;
-}
+
 
 /* ========= */
 
@@ -127,15 +127,15 @@
 }
 
 .team p {
-  width: 90%;
-  margin: 15px 0 0;
+  width: 100%;
+  margin-top: 15px;
   font-family: 'Open Sans', sans-serif;
   color: var(--color-text-primary);
   font-size: 1rem;
   line-height: 1.5;
-  margin-left: 15%;
-  margin-right: 15%;
   margin-bottom: 5%;
+
+  
 }
 
 .rectangle-final-team {
@@ -153,29 +153,25 @@
 
 .fortydeb {
   width: 100%;
-  background-color: var(--color-detail);
+  background-color: var(--color-detail-light);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
+  padding-bottom: 14.06%;
 }
 
 .fortalezas {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-left: 4.69%;
-  margin-right: 4.69%;
 }
 
 .debilidades {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-left: 4.69%;
-  margin-right: 4.69%;
-  margin-bottom: 14.06%;
 }
 
 .title-deb,
@@ -210,8 +206,8 @@
 }
 
 .Names {
-  font-family: Arial, Helvetica, sans-serif;
-  /*OpenSans*/
+  font-family:"Open Sans", sans-serif;
+  
   color: var(--color-text-secondary);
   font-weight: 100;
   font-size: 1.2rem;
@@ -220,13 +216,10 @@
 }
 
 .text-who {
-  font-family: Arial, Helvetica, sans-serif;
-  /*OpenSans*/
+  font-family:"Open Sans", sans-serif;
   color: var(--color-text-primary);
   font-size: 1rem;
   line-height: 1.5;
-  margin-left: 15%;
-  margin-right: 15%;
   margin-bottom: 5%;
 }
 
@@ -237,8 +230,8 @@
   text-align: center;
   font-weight: 600;
   font-size: 24px;
-  font-family: Arial, Helvetica, sans-serif;
-  /*Rubik*/
+  font-family: "Rubik", sans-serif;
+ 
 }
 
 .frame {
@@ -253,10 +246,9 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
   gap: 20px;
-  margin-bottom: 6%;
 }
-
 .fab fa-twitter {
   width: 30px;
   height: 80px;
@@ -304,10 +296,55 @@
 }
 /*RESPONSIVE ABAJO*/
 
-@media all and (min-width: ){ /*tablet*/
-  
-}
+@media all and (min-width:768px ){ /*tablet*/
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+   }
+   .team-name {
+    padding-left: 45px;
+   }
+   .nav{
+    background-color: transparent;
+    padding-right: 45px;
+   }   
+   .hero .text-hero{
+    opacity:0.8;
+    max-width: 441px;
+    bottom: -341px;
+    left: 45px;
+    
+   }
+   .hero{
+    height: 421px;
+    justify-content: left;
+       }
+    .container{
+      padding: 0 45px;
+    }
+/*     .fortydeb .container{
+     
+      
+      
+         }
+    .fortalezas{
+      display: inline-block;
+      max-width: 40%;
+    }
+    .debilidades{
+      display: inline-block;
+      max-width: 40%;
+    } */
+   }
 
-@media all and (min-width: ){ /*desktop*/
   
+
+
+@media all and (min-width:1200px ){ /*desktop*/
+  .nav{
+   
+    padding-right: 45px;
+   }   
 }
