@@ -324,10 +324,15 @@
     .container{
       padding: 0 45px;
     }
+    .containerfor {
+      display: flex;
+      justify-content: space-between;
+     }
+     .fortalezas,.debilidades {
+      max-width: 48%;
+      row-gap: 30px;
+     }
 /*     .fortydeb .container{
-     
-      
-      
          }
     .fortalezas{
       display: inline-block;
@@ -338,6 +343,8 @@
       max-width: 40%;
     } */
    }
+  
+   
 
   
 
