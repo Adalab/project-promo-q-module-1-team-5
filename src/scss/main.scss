@@ -344,16 +344,21 @@
 
     .personal {
       flex-direction: row;
-      justify-content: space-between;
+      flex-wrap: nowrap;    
     }
-    .nereida {
+    .nereida, .monica, .cristina {
       max-width: 60%;
       text-align: left;
     }
-    .monica {
+    .tatiana, .rocio {
       max-width: 60%;
-      text-align: left;
+      text-align: right;
     }
+    .personal-right {
+      flex-direction: row-reverse;
+    }
+  
+
    }
   
    
