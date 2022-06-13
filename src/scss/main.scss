@@ -159,7 +159,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding-bottom: 14.06%;
+  padding-bottom: 45px;
 }
 
 .fortalezas {
@@ -332,8 +332,7 @@
       max-width: 48%;
       row-gap: 30px;
      }
-/*     .fortydeb .container{
-         }
+
     .fortalezas{
       display: inline-block;
       max-width: 40%;
@@ -341,7 +340,20 @@
     .debilidades{
       display: inline-block;
       max-width: 40%;
-    } */
+    } 
+
+    .personal {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    .nereida {
+      max-width: 60%;
+      text-align: left;
+    }
+    .monica {
+      max-width: 60%;
+      text-align: left;
+    }
    }
   
    
