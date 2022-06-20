@@ -1,0 +1,46 @@
+.team {
+    width: 100%;
+    background-color: var(--color-text-header);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    scroll-margin-top: 120px;
+  }
+  
+  .title-team {
+    color: var(--color-second);
+    line-height: 1.88;
+    font-weight: 600;
+    font-size: 24px;
+    font-family: 'Rubik', sans-serif;
+  }
+  
+  .team p {
+    width: 100%;
+    margin-top: 15px;
+    font-family: 'Open Sans', sans-serif;
+    color: var(--color-text-primary);
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 5%;
+  
+    
+  }
+  
+  .rectangle-final-team {
+    width: 30px;
+    height: 30px;
+    background-color: var(--color-text-header);
+    display: flex;
+    justify-content: center;
+    transform: rotate(45deg);
+    position: absolute;
+    bottom: -2.8%;
+  }
+
+  @media all and (min-width:768px ){
+    /*na de na*/
+  }

@@ -1,0 +1,47 @@
+.hero {
+    background-image: url(https://www.latercera.com/resizer/Cl0W6jWbj8PfL8U15xJWGyaTr7Q=/900x600/smart/arc-anglerfish-arc2-prod-copesa.s3.amazonaws.com/public/CXNSQYHH7FFKNJLH6SGZTZ3ABE.jpg);
+    background-repeat: no-repeat;
+    background-color: white;
+    background-position: center;
+    width: 100%;
+    height: 421px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    background-size: cover;
+    
+  }
+  
+  .hero .text-hero {
+    width: 80%;
+    height: 80px;
+    background-color: white;
+    color: var(--color-text-secondary);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.3;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: -381px;
+    
+  }
+
+  @media all and (min-width:768px ){
+    .hero .text-hero{
+      opacity:0.8;
+      max-width: 441px;
+      bottom: -341px;
+      left: 45px;
+      
+     }
+     .hero{
+      height: 421px;
+      justify-content: left;
+    }
+  }
+  
