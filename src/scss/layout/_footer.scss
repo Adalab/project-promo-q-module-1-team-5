@@ -37,6 +37,28 @@
   line-height: 20px;
 }
 
-@media all and (min-width:768px ){
-  /*na de na*/
+@media all and (min-width:768px){
+  .footer{
+  display: grid;
+  grid-template-columns: repeat(8 1fr);
+  grid-template-rows: repeat(6 1fr);
+  grid-gap: 0px;
+  margin: 0px;
+  padding: 0px;
+  }
+
+  .copyright{
+    grid-column: 2/4;
+    grid-row: 2/3;
+  }
+
+  .logo{
+    grid-column: 2/4;
+    grid-row: 4/5;
+  }
+
+  .links-info{
+    grid-column: 6/8;
+    grid-row: 2/5;
+  }
 }

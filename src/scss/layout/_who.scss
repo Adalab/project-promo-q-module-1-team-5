@@ -61,17 +61,21 @@
     color: $color-principal;
   }
 
-  @media all and (min-width:768px ){  
+  @media all and (min-width:768px){  
     .personal {
       flex-direction: row;
       justify-content: space-between;
+      flex-wrap: nowrap;
     }
-    .nereida {
+    .personal-right{
+      flex-direction: row-reverse;
+    }
+    .ladoa {
       max-width: 60%;
       text-align: left;
     }
-    .monica {
+    .ladob {
       max-width: 60%;
-      text-align: left;
+      text-align: right;
     }
    }
