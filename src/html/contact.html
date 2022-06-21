@@ -4,13 +4,11 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
     href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;1,400&family=Rubik:wght@500&display=swap"
     rel="stylesheet">
-
   <link rel="preconnect" href="https://pro.fontawesome.com" />
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
     integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
@@ -122,4 +120,97 @@
 
 
 
+  <link rel="stylesheet" href="./assets/css/main.css">
+  <title>Las PaniQueras</title>
+
+<body>
+  <include src="./partials/header.html">
+  </include>
+  <main>
+    <include src="./partials/hero.html"></include>
+  <section class="contact-text">   
+    <h1 class="h1">Contacto</h>
+    <p>Si necesitas más información contacta con nosotras a través de nuestras redes sociales o rellenando este formulario.</p>
+    <p class="paragraph">
+        Todos los campos marcados con <span>*</span> son obligatorios.
+      </p>
+    </section>
+
+    <form action="https://formspree.io/f/meqnwejg"
+        method="post"
+        class="form">
+          <!--field to enter name-->
+
+          <div>
+            <label for="name" class="label"
+            >Nombre completo <span class="asterisk">*</span></label>
+          </div>
+          <div>
+            <input
+            type="text"
+            name="name"
+            id="full-name"
+            placeholder="Nombre ..."
+            required=""
+            class="input"/>
+          </div>
+
+          <!--field to enter email-->
+
+          <div>
+            <label for="email-address" class="label"
+            >Email <span class="asterisk">*</span></label>
+          </div>
+          <div>
+            <input
+            type="email"
+            name="_replyto"
+            id="email-address"
+            placeholder="nombre.apellidos@mail.com"
+            required=""
+            class="input_dark"/>
+          </div>
+
+          <!--field to enter phone number-->
+
+          <div>
+            <label for="telephone" class="label">Teléfono</label>
+          </div>
+          <div>
+            <input
+            type="telephone"
+            name="telephone"
+            id="telephone"
+            placeholder="Ej: 123456789"
+            class="input"/>
+          </div>
+
+          <!--field to enter message-->
+
+          <div class="form">
+            <label for="message">Mensaje<span>*</span></label>
+            <textarea
+              class="form__input"
+              name="message"
+              required
+              placeholder="¿Qué necesitas?"
+              id="message"
+              name="message"
+            ></textarea>
+          </div>
+
+
+          <div>
+            <input
+            type="hidden"
+            name="_subject"
+            id="email-subject"
+            value="Message Form Submission"/>
+          </div>
+
+        <input type="submit" value="enviar" class="button" />
+      </form>
+    </main>
+  <include src="./partials/footer.html"></include>
+</body>
 
