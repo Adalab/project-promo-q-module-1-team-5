@@ -1,81 +1,93 @@
 .who {
-    scroll-margin-top: 120px;
-  }
-  
-  .personal {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    text-align: center;
-    align-items: center;
-    position: relative;
-  }
-  
-  .Names {
-    font-family:"Open Sans", sans-serif;
-    
-    color: $color-text-secondary;
-    font-weight: 100;
-    font-size: 1.2rem;
-    line-height: 1.5;
-    margin-bottom: 2%;
-  }
-  
-  .text-who {
-    font-family:"Open Sans", sans-serif;
-    color: $color-text-primary;
-    font-size: 1rem;
-    line-height: 1.5;
-    margin-bottom: 5%;
-  }
-  
-  .who-we-are {
-    margin-top: 5%;
-    color: $color-principal;
-    line-height: 1.88;
-    text-align: center;
-    font-weight: 600;
-    font-size: 24px;
-    font-family: "Rubik", sans-serif;
-   
-  }
-  
-  .frame {
-    margin: 5%;
-    width: 250px;
-    height: 250px;
-    border: 6px solid #d5d5d5;
-    border-radius: 7px;
-  }
-  
-  .icon {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-  }
-  .fab fa-twitter {
-    width: 30px;
-    height: 80px;
-    color: $color-principal;
+  scroll-margin-top: 120px;
+}
+
+.personal {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+  position: relative;
+  padding-bottom: 50px;
+
+  @media all and (min-width: 768px) {
+    gap: 30px;
   }
 
-  @media all and (min-width:768px){  
-    .personal {
-      flex-direction: row;
-      justify-content: space-between;
-      flex-wrap: nowrap;
-    }
-    .personal-right{
-      flex-direction: row-reverse;
-    }
-    .ladoa {
-      max-width: 60%;
-      text-align: left;
-    }
-    .ladob {
-      max-width: 60%;
-      text-align: right;
-    }
-   }
+  @media all and (min-width: 1200px) {
+    gap: 45px;
+    padding-bottom: 0;
+  }
+}
+
+.Names {
+  font-family: "Open Sans", sans-serif;
+  color: $color-text-secondary;
+  font-weight: 100;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 2%;
+}
+
+.text-who {
+  font-family: "Open Sans", sans-serif;
+  color: $color-text-primary;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 5%;
+}
+
+.who-we-are {
+  margin-top: 5%;
+  color: $color-principal;
+  line-height: 1.88;
+  text-align: center;
+  font-weight: 600;
+  font-size: 24px;
+  font-family: "Rubik", sans-serif;
+
+}
+
+.frame {
+  margin: 5% 0;
+  width: 250px;
+  height: 250px;
+  border: 6px solid #d5d5d5;
+  border-radius: 7px;
+}
+
+.icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.fab fa-twitter {
+  width: 30px;
+  height: 80px;
+  color: $color-principal;
+}
+
+@media all and (min-width:768px) {
+  .personal {
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+
+  .personal-right {
+    flex-direction: row-reverse;
+  }
+
+  .ladoa {
+    max-width: 60%;
+    text-align: left;
+  }
+
+  .ladob {
+    max-width: 60%;
+    text-align: right;
+  }
+}
