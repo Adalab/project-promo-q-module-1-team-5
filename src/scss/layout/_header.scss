@@ -1,6 +1,6 @@
 .header {
   width: 100vw;
-  background-color: var(--color-principal);
+  background-color: $color-principal;
   position: fixed;
   top: 0;
   opacity: 0.9;
@@ -16,7 +16,7 @@
 }
 
 .title-header {
-  color: var(--color-text-header);
+  color: $color-text-header;
   line-height: 30px;
   font-family: "Rubik", sans-serif;
   font-weight: 500;
@@ -25,7 +25,7 @@
 
 .nav {
   height: 45px;
-  background-color: var(--color-second);
+  background-color: $color-second;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -34,7 +34,7 @@
 
 
 .link {
-  color: var(--color-text-header);
+  color: $color-text-header;
   font-family: "Rubik", sans-serif;
   font-weight: 500;
   line-height: 30px;

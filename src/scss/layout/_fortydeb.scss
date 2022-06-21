@@ -1,6 +1,6 @@
 .fortydeb {
     width: 100%;
-    background-color: var(--color-detail-light);
+    background-color: $color-detail-light;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -23,7 +23,7 @@
   
   .title-deb,
   .title-fort {
-    color: var(--color-principal);
+    color: $color-principal;
     margin-top: 9.34%;
     font-family: "Rubik", sans-serif;
     font-size: 1.375rem;
@@ -32,7 +32,7 @@
   
   .par-deb,
   .par-fort {
-    color: var(--color-text-primary);
+    color: $color-text-primary;
     font-family: "Open Sans", sans-serif;
     font-size: 1rem;
     line-height: 1.5;

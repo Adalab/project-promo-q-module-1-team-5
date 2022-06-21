@@ -14,7 +14,7 @@
   .Names {
     font-family:"Open Sans", sans-serif;
     
-    color: var(--color-text-secondary);
+    color: $color-text-secondary;
     font-weight: 100;
     font-size: 1.2rem;
     line-height: 1.5;
@@ -23,7 +23,7 @@
   
   .text-who {
     font-family:"Open Sans", sans-serif;
-    color: var(--color-text-primary);
+    color: $color-text-primary;
     font-size: 1rem;
     line-height: 1.5;
     margin-bottom: 5%;
@@ -31,7 +31,7 @@
   
   .who-we-are {
     margin-top: 5%;
-    color: var(--color-principal);
+    color: $color-principal;
     line-height: 1.88;
     text-align: center;
     font-weight: 600;
@@ -58,7 +58,7 @@
   .fab fa-twitter {
     width: 30px;
     height: 80px;
-    color: var(--color-principal);
+    color: $color-principal;
   }
 
   @media all and (min-width:768px ){  

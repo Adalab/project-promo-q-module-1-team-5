@@ -8,7 +8,7 @@
 }
 
 .copyright {
-  color: var(--color-detail);
+  color: $color-detail;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-size: 14px;
@@ -29,7 +29,7 @@
 }
 
 .link-footer {
-  color: var(--color-text-primary);
+  color: $color-text-primary;
   text-decoration: none;
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
@@ -38,5 +38,5 @@
 }
 
 @media all and (min-width:768px ){
-  /*na de na */
+  /*na de na*/
 }
