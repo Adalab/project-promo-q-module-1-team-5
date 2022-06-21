@@ -1,63 +1,63 @@
 .fortydeb {
-    width: 100%;
-    background-color: $color-detail-light;
+  width: 100%;
+  background-color: $color-detail-light;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 45px;
+}
+
+.fortalezas {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.debilidades {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-deb,
+.title-fort {
+  color: $color-principal;
+  margin-top: 9.34%;
+  font-family: "Rubik", sans-serif;
+  font-size: 1.375rem;
+  line-height: 2.05;
+}
+
+.par-deb,
+.par-fort {
+  color: $color-text-primary;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+@media all and (min-width:768px) {
+
+  .containerfor {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding-bottom: 45px;
+    justify-content: space-between;
   }
-  
-  .fortalezas {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  
+
+  .fortalezas,
   .debilidades {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .title-deb,
-  .title-fort {
-    color: $color-principal;
-    margin-top: 9.34%;
-    font-family: "Rubik", sans-serif;
-    font-size: 1.375rem;
-    line-height: 2.05;
-  }
-  
-  .par-deb,
-  .par-fort {
-    color: $color-text-primary;
-    font-family: "Open Sans", sans-serif;
-    font-size: 1rem;
-    line-height: 1.5;
+    max-width: 48%;
+    row-gap: 30px;
   }
 
-  @media all and (min-width:768px ){
-    .container{
-      padding: 0 45px;
-    }
-    .containerfor {
-      display: flex;
-      justify-content: space-between;
-     }
-     .fortalezas,.debilidades {
-      max-width: 48%;
-      row-gap: 30px;
-     }
-
-    .fortalezas{
-      display: inline-block;
-      max-width: 40%;
-    }
-    .debilidades{
-      display: inline-block;
-      max-width: 40%;
-    } 
+  .fortalezas {
+    display: inline-block;
+    max-width: 40%;
   }
-  
+
+  .debilidades {
+    display: inline-block;
+    max-width: 40%;
+  }
+}
