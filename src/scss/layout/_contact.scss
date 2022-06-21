@@ -60,7 +60,6 @@
   }
 
   .input_dark {
-
     font-size: 14px;
     line-height: 1.5;
     padding: 11px 0 15px 15px;
@@ -69,7 +68,11 @@
     box-sizing: border-box;
     width: 100%;
     margin: 5px 0 20px 0;
-  }
+    @media all and (min-width: 1200px) {
+        min-width: 395px;
+    }
+}
+  
   .message-input {
     margin: 5px 0 20px 0;
     height: 105px;
@@ -87,6 +90,16 @@
     @media all and (min-width: 768px) {
         width: 206px;
         align-self: flex-end;
+    }
+  }
+
+  .email-telephone {
+    @media all and (min-width: 1200px) {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+    
     }
   }
 
