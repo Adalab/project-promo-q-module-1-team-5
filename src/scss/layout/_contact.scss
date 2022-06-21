@@ -1,13 +1,94 @@
-.contact-text {
-    text-align: center;
-    width: 100vw;
-    
-}
+.main-contact { 
+    .text-hero {
+    display: none;
+} 
+} 
 
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    font-family: 'Rubik', sans-serif;
+    color: $color-text-primary;
+    @media all and (min-width: 768px) {
+      margin-left: 15%;
+      margin-right: 15%;
+    }
+     
+}
 .title-contact {
     color: $color-second;
     line-height: 1.88;
     font-weight: 600;
+    text-transform: uppercase;
     font-size: 24px;
-    font-family: 'Rubik', sans-serif;
+    text-align: center;
   }
+
+.contact-text {
+    text-align: center;   
+    line-height: 24px;
+}
+
+.paragraph {
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+.asterisk {
+    color: $color-second;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    width: 100%;
+  }
+
+  .input {
+    font-size: 14px;
+    line-height: 1.5;
+    padding: 11px 0 15px 15px;
+    height: 45px;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 5px 0 20px 0;
+  }
+
+  .input_dark {
+
+    font-size: 14px;
+    line-height: 1.5;
+    padding: 11px 0 15px 15px;
+    font-weight: bold;
+    height: 45px;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 5px 0 20px 0;
+  }
+  .message-input {
+    margin: 5px 0 20px 0;
+    height: 105px;
+  }
+
+  .button {
+    background-color: $color-principal;
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+    height: 45px;
+    margin: 15px 0 60px 0;
+    box-sizing: border-box;
+    border: none;
+    @media all and (min-width: 768px) {
+        width: 206px;
+        align-self: flex-end;
+    }
+  }
+
+
+

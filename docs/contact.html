@@ -36,17 +36,20 @@
     </nav>
   </header>
 
-  <main>
+  <main class="main-contact">
     <section class="hero">
       <h3 class="text-hero">"La realidad sin paños calientes"</h3>
     </section>
 
+
+
+    <div class="contact-form container">
   <section class="contact-text"> 
       
     <h2 class="title-contact">Contact</h2>
     <p>Si necesitas más información contacta con nosotras a través de nuestras redes sociales o rellenando este formulario.</p>
     <p class="paragraph">
-        Todos los campos marcados con <span>*</span> son obligatorios.
+        Todos los campos marcados con <span class="asterisk">*</span> son obligatorios.
       </p>
     </section>
 
@@ -102,9 +105,9 @@
           <!--field to enter message-->
 
           <div class="form">
-            <label for="message">Mensaje<span>*</span></label>
+            <label for="message">Mensaje<span class="asterisk">*</span></label>
             <textarea
-              class="form__input"
+              class="message-input"
               name="message"
               required
               placeholder="¿Qué necesitas?"
@@ -124,6 +127,7 @@
 
         <input type="submit" value="enviar" class="button" />
       </form>
+    </div>
     </main>
   <footer class="footer container">
     <div>
